@@ -7,8 +7,8 @@ import pandas as pd
 df = pd.read_csv('parkinsons.csv')
 df = df.dropna()
 df.head()
-selected_features = ['MDVP:Fo(Hz)',  'PPE']
-X = df[selected_features]
+features = ['MDVP:Fo(Hz)',  'PPE']
+X = df[features]
 y = df['status']
 from sklearn.preprocessing import MinMaxScaler
 
