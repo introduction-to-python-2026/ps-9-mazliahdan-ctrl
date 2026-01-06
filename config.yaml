@@ -1,4 +1,2 @@
-path: parkinsons.joblib
-features:
-  - "MDVP:Fo(Hz)"
-  - "PPE"
+path: my_model.joblib
+features: ["MDVP:Fo(Hz)", "PPE"]
